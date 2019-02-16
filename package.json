@@ -1,0 +1,32 @@
+{
+  "name": "verdaccio-md5",
+  "version": "0.0.0",
+  "description": "Verdaccio File Based MD5 Auth Plugin",
+  "main": "lib/index",
+  "scripts": {
+    "build": "tsc",
+    "deploy": "node private/deploy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joejukan/verdaccio-md5.git"
+  },
+  "keywords": [
+    "Verdaccio",
+    "MD5",
+    "Authentication",
+    "Plugin",
+    "File-Based"
+  ],
+  "author": "Joseph Eniojukan",
+  "license": "ISC",
+  "dependencies": {
+    "md5": "2.2.1",
+    "@joejukan/web-kit": "0.0.1"
+  },
+  "devDependencies": {
+    "@types/bunyan": "1.8.4",
+    "@types/md5": "2.1.32",
+    "sftp-upload": "1.0.0"
+  }
+}

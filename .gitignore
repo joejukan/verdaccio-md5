@@ -1,0 +1,7 @@
+lib/
+logs/
+node_modules/
+private/
+scripts/
+npm-debug.log
+.vscode/
